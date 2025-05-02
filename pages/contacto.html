@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../src/img/creative-computer-logo-template/6370560.jpg" type="image/x-icon"> 
+      <!-- Favicon-->
+      <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon"> 
+    <!-- Librería de iconos de ionic.io-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Hojas de estilo-->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive-movile.css">
     <link rel="stylesheet" href="../css/responvise-table.css">
@@ -24,7 +29,7 @@
 
         <!-- Imagen logo y texto -->
         <div class="sec2-header">
-            <img src="../src/img/creative-computer-logo-template/6370560.jpg" alt="mi logo">
+            <img src="../src/img/logo3.png" alt="mi logo">
             <p id="p-header"></p>
         </div>
     </header>
@@ -59,8 +64,8 @@
                 </ul>
             </li>
 
-            <li>
-                <a href="contacto.html">Contacto</a>
+            <li class="lugarActivo">
+                <a href="contacto.html">- Contacto -</a>
             </li>
         </ul>
     </nav>
@@ -434,15 +439,21 @@
 
         <!-- Logo -->
         <div class="f-2">
-            <img src="../src/img/creative-computer-logo-template/6370560.jpg" alt="mi logo">
+            <img src="../src/img/logo3.png" alt="mi logo">
             <p>Proyecto para Lenguajes de Marcas 2025.</p>
         </div>
 
         <!-- Iconos RRSS -->
-        <div class="f-3">
-            <img id="intagram" src="../src/img/2111463.png" alt="intagram">
-            <img id="facebook" src="../src/img/facebook_4494475.png" alt="facebook">
-            <img id="whasapp" src="../src/img/whatsapp_4494495.png" alt="whatsapp">
+        <div class="f-3">          
+            <a href="https://www.instagram.com/" class="">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/" class="">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://wa.me/15551234567" class="">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
         </div>
     </footer>
 
